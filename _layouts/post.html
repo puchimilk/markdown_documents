@@ -1,6 +1,6 @@
 ---
 layout: default
 ---
-<p>{{ page.date }} - Written by {{ page.author }}</p>
+<p>{{ page.date | date: "%Y年%m月%d日 %H:%M"}} - Written by {{ page.author }}</p>
 
 {{ content }}
